@@ -50,8 +50,8 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2 bg-white" type="search" placeholder="Cerca..."
-                            aria-label="Cerca..." />
+                        <input class="form-control me-2 bg-white text-secondary" type="search" placeholder="Cerca..."
+                            aria-label="Cerca..."/>
                         <button class="btn btn-outline-light" type="submit">Cerca</button>
                     </form>
                 </div>
@@ -60,16 +60,19 @@
     </header>
 
     <main class="container">
+
         <div class="row">
 
-            <!--r add book to table -->
-            <div class="col-12 d-flex my-4">
-                <h2>Catalogo Libri</h2>
-                <button class="btn btn-primary ms-auto">Aggiungi Libro</button>
-            </div>
+            <!--r book catalogue -->
+            <div class="col-12 col-lg-8">
 
-            <!--r book table -->
-            <div class="col-12">
+                <!--r add book to table -->
+                <div class="d-flex align-self-start my-4">
+                    <h2>Catalogo Libri</h2>
+                    <button class="btn btn-primary ms-auto">Aggiungi Libro</button>
+                </div>
+
+                <!--r book table -->
                 <table class="table table-striped">
                     <thead>
                         <tr>
@@ -287,9 +290,13 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>
+
+            <!--r card  -->
+            <div class="col-12 col-lg-4">
 
                 <!--r todo card -->
-                <div class="col-12 card mb-4">
+                <div class="card mb-4 mt-lg-4">
                     <div class="card-header">
                         <span class="fs-2">Todo</span>
                     </div>
@@ -318,7 +325,7 @@
                 </div>
 
                 <!--r  F.A.Q. card -->
-                <div class="col-12 card mb-4">
+                <div class="card mb-4">
                     <div class="card-header">
                         <span class="fs-2">F.A.Q</span>
                     </div>
@@ -350,7 +357,7 @@
                                 data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">Placeholder content for this accordion, which is intended to
                                     demonstrate the <code>.accordion-flush</code> class. This is the second item’s
-                                    accordion body. Let’s imagine this being filled with some actual content.</div>
+                                    accordion body. Let's imagine this being filled with some actual content.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -372,9 +379,10 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
     </main>
 
-    <footer></footer>
 </body>
 
 </html>
