@@ -61,8 +61,40 @@
     </header>
 
     <main class="container">
-        <form>
 
+        <h2 class="my-4">Nuovo Libro</h2>
+
+        <form class="row">
+
+            <!--r author name -->
+            <div class="col-6 mb-3">
+                <label for="author-name" class="form-label">Nome Utore</label>
+                <input type="text" class="form-control" id="author-name" placeholder="Inserisci il nome dell'Autore">
+            </div>
+
+            <!--r author surname -->
+            <div class="col-6 mb-3">
+                <label for="author-surname" class="form-label">Cognome Autore</label>
+                <input type="text" class="form-control" id="author-surname"
+                    placeholder="Inserisci il cognome dell'Autore">
+            </div>
+
+            <!--r book title -->
+            <div class="col-12 mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" class="form-control" id="title" placeholder="Inserisci il titolo del libro">
+            </div>
+
+            <!--r gender selector -->
+            <div class="col">
+                <label for="gender-select" class="form-label">Genere</label>
+                <select class="form-select" id="gender-select" required>
+                    <option value="" disabled selected>Scegli il genere</option>
+                    <option value="1">Horror</option>
+                    <option value="2">Comedy</option>
+                    <option value="3">Drama</option>
+                </select>
+            </div>
         </form>
     </main>
 </body>
