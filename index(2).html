@@ -83,6 +83,7 @@
             <div class="col-12 mb-3">
                 <label for="title" class="form-label">Title</label>
                 <input type="text" class="form-control" id="title" placeholder="Inserisci il titolo del libro">
+                <div id="title-help" class="form-text">Titolo versione italiana</div>
             </div>
 
             <!--r gender selector -->
@@ -97,34 +98,38 @@
             </div>
 
             <!--r age of pubblication -->
-            <div class="col-12 mb-3">
+            <div class="col-12 col-lg-4 mb-3">
                 <label for="pubblication-age" class="form-label">Anno di Pubblicazione</label>
                 <input type="text" class="form-control" id="pubblication-age" placeholder="Inserisci l'anno">
             </div>
 
             <!--r code ISBN# -->
-            <div class="col mb-5">
+            <div class="col mb-4">
                 <label for="ISBN#" class="form-label">ISBN#</label>
                 <input type="text" class="form-control" id="ISBN#" placeholder="Inserisci il codice ISBN#">
             </div>
 
-            <hr>
+            <div class="col-12 mb-2">
+                <hr>
+            </div>
 
             <!--r note -->
-            <div class="col-12 my-3">
+            <div class="col-12 mb-3">
                 <label for="note" class="form-label">Note</label>
                 <textarea class="form-control" id="note" rows="3"
                     placeholder="Inserisci eventuali note sul libro"></textarea>
             </div>
 
             <!--r check button "available" -->
-            <div class="form-check mb-3">
-                <label class="form-check-label" for="check-default">Disponibile anche in digitale</label>
-                <input class="form-check-input" type="checkbox" value="" id="check-default">
+            <div class="col-12">
+                <div class="form-check mb-3">
+                    <label class="form-check-label" for="check-default">Disponibile anche in digitale</label>
+                    <input class="form-check-input" type="checkbox" value="" id="check-default">
+                </div>
             </div>
 
             <!--r submit button -->
-            <div class="mb-3">
+            <div class="col mb-3">
                 <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
             </div>
         </form>
